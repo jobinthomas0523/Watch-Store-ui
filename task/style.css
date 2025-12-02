@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #F3E8DF;
+}
+.header{
+
+    width: 100%;
+    height: 70px;
+    background-color: #452829;
+    color: #E8D1C5;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #E8D1C5;
+}
+ul li:hover{
+    padding: 5px;
+    background-color: #F3E8DF;
+}
+.products{
+    background-color: #57595B;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+section div{
+    width: 300px;
+    height: 400px;
+    background-color: #F3E8DF;
+    
+    margin: 10px;
+    border-radius: 30px;
+    position: relative;
+}
+section div:hover{
+    padding: 10px;
+    background-color:#452829;
+    border: 3px solid  #F3E8DF ;
+transition: 1s;
+}
+section div img{
+    position: absolute;
+    left: 70px;
+    top: 60px
+    ;
+    border-radius: 20px;
+
+}
+section div img:hover{
+    border:#E8D1C5 2px ;
+}
+section div h2{
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+}
+section div h3{
+    position: absolute;
+     bottom: 40px;
+    left: 40px;
+}
+
+section div button{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+     bottom: 35px;
+    right: 60px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+
+}
+section div button:hover{
+    background-color:rgba(67, 67, 244, 0.156);
+    padding: 5px;
+}
+section button{
+position: absolute;
+bottom: 245px;   
+left: 50%; 
+width: 100px;
+height: 35px;
+ border: 2px solid black;
+    border-radius: 50px;
+
+}

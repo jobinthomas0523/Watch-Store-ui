@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: "Caveat", cursive;
+
+
+}
+@keyframes myAnimation{
+    0% {background-color: aqua; left: 0px; top: 0px; }
+    25%{background-color: blueviolet; left: 200px; top: 0px;}
+    50%{background-color: blue; left: 200px; top: 200px; }
+    75%{background-color: chartreuse;left: 0px;top: 200px;}
+    100%{background-color:rgb(255, 0, 21);left: 0px;top: 0px;}
+}

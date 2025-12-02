@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #4b0082;
+    transition: width 2s, height 4s, background-color 5s, ease-in-out, transform 3s;
+    transition-duration: 3s;
+}
+div:hover{
+    width: 500px;
+    height: 500px;
+    background-color:#09f628 ;
+    /* transform: rotate(3600deg); */
+    /* transform: scale(2); */
+    /* transform: skew(20deg); */
+     transform:rotateZ(90deg);
+    
+
+
+}
